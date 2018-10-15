@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="880.0" style="-fx-background-color: #002634; -fx-border-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.ferhatkurt.Kontroller">
+   <children>
+      <TextField fx:id="macro_1" layoutX="86.0" layoutY="89.0" />
+      <TextField fx:id="macro_2" layoutX="86.0" layoutY="132.0" />
+      <TextField fx:id="macro_3" layoutX="86.0" layoutY="180.0" />
+      <TextField fx:id="macro_4" layoutX="86.0" layoutY="227.0" />
+      <TextField fx:id="macro_5" layoutX="86.0" layoutY="275.0" />
+      <TextField fx:id="macro_6" layoutX="86.0" layoutY="327.0" />
+      <TextField fx:id="macro_7" layoutX="86.0" layoutY="378.0" />
+      <Label layoutX="61.0" layoutY="95.0" text="1. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="138.0" text="2. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="61.0" layoutY="186.0" text="3. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="61.0" layoutY="233.0" text="4. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="61.0" layoutY="282.0" text="5. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="62.0" layoutY="334.0" text="6." textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="62.0" layoutY="384.0" text="7. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="528.0" layoutY="388.0" text="Extra 4" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="528.0" layoutY="338.0" text="Extra 3" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="527.0" layoutY="286.0" text="Extra 2" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="527.0" layoutY="237.0" text="Extra 1" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="547.0" layoutY="192.0" text="10. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="547.0" layoutY="144.0" text="9. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="547.0" layoutY="101.0" text="8. " textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="macro_14" layoutX="576.0" layoutY="384.0" />
+      <TextField fx:id="macro_13" layoutX="576.0" layoutY="333.0" />
+      <TextField fx:id="macro_12" layoutX="576.0" layoutY="281.0" />
+      <TextField fx:id="macro_11" layoutX="576.0" layoutY="233.0" />
+      <TextField fx:id="macro_10" layoutX="576.0" layoutY="186.0" />
+      <TextField fx:id="macro_9" layoutX="576.0" layoutY="138.0" />
+      <TextField fx:id="macro_8" layoutX="576.0" layoutY="95.0" />
+      <TextField fx:id="sure_7" layoutX="249.0" layoutY="378.0" prefWidth="50.0" />
+      <TextField fx:id="sure_6" layoutX="249.0" layoutY="327.0" prefWidth="50.0" />
+      <TextField fx:id="sure_5" layoutX="249.0" layoutY="275.0" prefWidth="50.0" />
+      <TextField fx:id="sure_4" layoutX="249.0" layoutY="227.0" prefWidth="50.0" />
+      <TextField fx:id="sure_3" layoutX="249.0" layoutY="180.0" prefWidth="50.0" />
+      <TextField fx:id="sure_2" layoutX="249.0" layoutY="132.0" prefWidth="50.0" />
+      <TextField fx:id="sure_1" layoutX="249.0" layoutY="89.0" prefWidth="50.0" />
+      <Label layoutX="313.0" layoutY="384.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="313.0" layoutY="334.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="282.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="233.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="186.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="138.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="95.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="801.0" layoutY="103.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="801.0" layoutY="146.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="801.0" layoutY="194.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="801.0" layoutY="241.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="801.0" layoutY="290.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="802.0" layoutY="342.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="802.0" layoutY="392.0" text="MS" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="sure_8" layoutX="738.0" layoutY="97.0" prefWidth="50.0" />
+      <TextField fx:id="sure_9" layoutX="738.0" layoutY="140.0" prefWidth="50.0" />
+      <TextField fx:id="sure_10" layoutX="738.0" layoutY="188.0" prefWidth="50.0" />
+      <TextField fx:id="sure_11" layoutX="738.0" layoutY="235.0" prefWidth="50.0" />
+      <TextField fx:id="sure_12" layoutX="738.0" layoutY="283.0" prefWidth="50.0" />
+      <TextField fx:id="sure_13" layoutX="738.0" layoutY="335.0" prefWidth="50.0" />
+      <TextField fx:id="sure_14" layoutX="738.0" layoutY="386.0" prefWidth="50.0" />
+      <Button fx:id="baslat" contentDisplay="CENTER" layoutX="235.0" layoutY="436.0" mnemonicParsing="false" onAction="#macroBaslat" prefHeight="25.0" prefWidth="107.0" text="Botu Başlat" />
+      <Button fx:id="durdur" contentDisplay="CENTER" layoutX="375.0" layoutY="436.0" mnemonicParsing="false" onAction="#temizle" prefHeight="25.0" prefWidth="107.0" text="Botu Durdur" />
+      <Label layoutX="79.0" layoutY="10.0" text="Game Bot v1.1" textFill="#ffa411">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="kapatButonu" layoutX="854.0" layoutY="1.0" onMouseClicked="#botuKapat" prefHeight="25.0" prefWidth="25.0" text=" X" textAlignment="CENTER" textFill="#ffa411">
+         <font>
+            <Font name="Tahoma Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="yardim" layoutX="827.0" layoutY="1.0" onMouseClicked="#yardimAc" prefHeight="25.0" prefWidth="25.0" text=" ?" textAlignment="CENTER" textFill="#ffa411">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Tahoma Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="temizle1" contentDisplay="CENTER" layoutX="512.0" layoutY="436.0" mnemonicParsing="false" onAction="#temizle" prefHeight="25.0" prefWidth="107.0" text="Yeniden Başlat" />
+      <ImageView fitHeight="57.0" fitWidth="64.0" layoutX="1.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
