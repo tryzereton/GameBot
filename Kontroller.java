@@ -93,55 +93,15 @@ public class Kontroller {
 	TimerTask gorev1,gorev2,gorev3,gorev4,gorev5,gorev6,gorev7,gorev8,gorev9,gorev10,gorev11,gorev12,gorev13,gorev14;
 	
 	
-	Boolean durum = false;
+	private Boolean durum;
 	
 	public Kontroller() throws AWTException {
 			
-		/*
-		//MET›N G›R›ﬁLER›
-		macro_1 = new TextField();
-		macro_2 = new TextField();
-		macro_3 = new TextField();
-		macro_4 = new TextField();
-		macro_5 = new TextField();
-		macro_6 = new TextField();
-		macro_7 = new TextField();
-		macro_8 = new TextField();
-		macro_9 = new TextField();
-		macro_10 = new TextField();
-		macro_11 = new TextField();
-		macro_12 = new TextField();
-		macro_13 = new TextField();
-		macro_14 = new TextField();
-		
-		//S‹RE G›R›ﬁLER›
-		sure_1 = new TextField();
-		sure_1 = new TextField();
-		sure_2 = new TextField();
-		sure_3 = new TextField();
-		sure_4 = new TextField();
-		sure_5 = new TextField();
-		sure_6 = new TextField();
-		sure_7 = new TextField();
-		sure_8 = new TextField();
-		sure_9 = new TextField();
-		sure_10 = new TextField();
-		sure_11 = new TextField();
-		sure_12 = new TextField();
-		sure_13 = new TextField();
-		sure_14 = new TextField();
+	
+		durum = false;
 		
 		
-		
-		//BOTU BAﬁLAT
-		baslat = new Button();
-		durdur = new Button();
-		yardim = new Label();
-		temizle = new Button();
-		yenidenBaslat = new Button();
-		
-		*/
-		//TUﬁLAYICILAR
+		//TU√ûLAYICILAR
 		r = new Robot();
 		r2 = new Robot();
 		r3 = new Robot();
@@ -170,18 +130,18 @@ public class Kontroller {
 		
 		Alert a = new Alert(AlertType.INFORMATION);
 		a.setTitle("Game Bot");
-		a.setHeaderText("Tu˛ giri˛leri hakk˝nda");
-		a.setContentText("(?) 1'den 10'a kadar olan kutulara tek karakterlik giri˛ler yap˝labilir."+
-		"Aksi takdirde ilk girdiiniz karakter ele al˝narak i˛lem yap˝lacakt˝r.\n\n"+"(?) Extra_1-4 aras˝ giri˛lere F1-F2-F3-F4,F5 ve BOﬁLUK tu˛lar˝ tan˝mlanabilir."
-		+ "Dier durumlarda tek karakterlik giri˛ler yap˝labilmektedir.\n\n (?) S¸re giri˛lerini unutmay˝n.S¸reler MikroSaniye(MS) ¸zerinden deelendirilmektedir.\n"
-		+ "1000MS = 1sn\n\n\n"+"Keyifli oyunlar geÁirmeniz dileiyle :)");
+		a.setHeaderText("Tu√æ giri√æleri hakk√Ωnda");
+		a.setContentText("(?) 1'den 10'a kadar olan kutulara tek karakterlik giri√æler yap√Ωlabilir."+
+		"Aksi takdirde ilk girdi√∞iniz karakter ele al√Ωnarak i√ælem yap√Ωlacakt√Ωr.\n\n"+"(?) Extra_1-4 aras√Ω giri√ælere F1-F2-F3-F4,F5 ve BO√ûLUK tu√ælar√Ω tan√Ωmlanabilir."
+		+ "Di√∞er durumlarda tek karakterlik giri√æler yap√Ωlabilmektedir.\n\n (?) S√ºre giri√ælerini unutmay√Ωn.S√ºreler MikroSaniye(MS) √ºzerinden de√∞elendirilmektedir.\n"
+		+ "1000MS = 1sn\n\n\n"+"Keyifli oyunlar ge√ßirmeniz dile√∞iyle :)");
 		a.showAndWait();
 	}
 	
 	@FXML
 	private void botuKapat(MouseEvent e){
 		Alert a = new Alert(AlertType.CONFIRMATION);
-		a.setContentText("«˝kmak istediinizden emin misiniz?");
+		a.setContentText("√á√Ωkmak istedi√∞inizden emin misiniz?");
 		a.setTitle("Game Bot");
 		a.setHeaderText("");
 		a.showAndWait();
@@ -197,7 +157,7 @@ public class Kontroller {
 	public void macroBaslat(ActionEvent e) {
 		durum = true;
 	try {
-		//TUﬁ 1 ›«›N G÷REVLER
+		//TU√û 1 √ù√á√ùN G√ñREVLER
 		if(!macro_1.getText().equals("") && !sure_1.getText().equals("")) {
 			
 			t1= new Timer();
@@ -218,13 +178,13 @@ public class Kontroller {
 				t1.schedule(gorev1,new Date(),val);
 			
 			}catch(NumberFormatException e1) {
-				macro_1.setText("S¸re girilmedi.");
+				macro_1.setText("S√ºre girilmedi.");
 			}
 			
 		}
 		
 		
-		//TUﬁ 2 ›«›N G÷REVLER
+		//TU√û 2 √ù√á√ùN G√ñREVLER
 		if(!macro_2.getText().equals("") && !sure_2.getText().equals("")) {
 			
 			t2 = new Timer();
@@ -246,12 +206,12 @@ public class Kontroller {
 			
 			}catch(NumberFormatException e1) {
 				
-				macro_2.setText("S¸re girilmedi.");
+				macro_2.setText("S√ºre girilmedi.");
 						
 			}
 		}
 		
-		//TUﬁ 3 ›«›N G÷REVLER
+		//TU√û 3 √ù√á√ùN G√ñREVLER
 		if(!macro_3.getText().equals("") && !sure_3.getText().equals("")) {
 			
 			t3 = new Timer();
@@ -273,12 +233,12 @@ public class Kontroller {
 			
 			}catch(NumberFormatException e1) {
 				
-				macro_3.setText("S¸re girilmedi.");
+				macro_3.setText("S√ºre girilmedi.");
 						
 			}
 		}
 		
-		//TUﬁ 4 ›«›N G÷REVLER
+		//TU√û 4 √ù√á√ùN G√ñREVLER
 		if(!macro_4.getText().equals("") && !sure_4.getText().equals("")) {
 			
 			t4 = new Timer();
@@ -300,11 +260,11 @@ public class Kontroller {
 			
 			}catch(NumberFormatException e1) {
 				
-				macro_4.setText("S¸re girilmedi.");
+				macro_4.setText("S√ºre girilmedi.");
 						
 			}
 		}
-		//TUﬁ 5 ›«›N G÷REVLER
+		//TU√û 5 √ù√á√ùN G√ñREVLER
 				if(!macro_5.getText().equals("") && !sure_5.getText().equals("")) {
 					
 					t5 = new Timer();
@@ -326,12 +286,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_5.setText("S¸re girilmedi.");
+						macro_5.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 6 ›«›N G÷REVLER
+				//TU√û 6 √ù√á√ùN G√ñREVLER
 				if(!macro_6.getText().equals("") && !sure_6.getText().equals("")) {
 					
 					t6 = new Timer();
@@ -353,12 +313,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_6.setText("S¸re girilmedi.");
+						macro_6.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 7 ›«›N G÷REVLER
+				//TU√û 7 √ù√á√ùN G√ñREVLER
 				if(!macro_7.getText().equals("") && !sure_7.getText().equals("")) {
 					
 					t7 = new Timer();
@@ -380,12 +340,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_7.setText("S¸re girilmedi.");
+						macro_7.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 8 ›«›N G÷REVLER
+				//TU√û 8 √ù√á√ùN G√ñREVLER
 				if(!macro_8.getText().equals("") && !sure_8.getText().equals("")) {
 					
 					t8 = new Timer();
@@ -407,12 +367,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_8.setText("S¸re girilmedi.");
+						macro_8.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 9 ›«›N G÷REVLER
+				//TU√û 9 √ù√á√ùN G√ñREVLER
 				if(!macro_9.getText().equals("") && !sure_9.getText().equals("")) {
 					
 					t9 = new Timer();
@@ -434,12 +394,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_9.setText("S¸re girilmedi.");
+						macro_9.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 10 ›«›N G÷REVLER
+				//TU√û 10 √ù√á√ùN G√ñREVLER
 				if(!macro_10.getText().equals("") && !sure_10.getText().equals("")) {
 					
 					t10 = new Timer();
@@ -461,12 +421,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_10.setText("S¸re girilmedi.");
+						macro_10.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 11 ›«›N G÷REVLER
+				//TU√û 11 √ù√á√ùN G√ñREVLER
 				if(!macro_11.getText().equals("") && !sure_11.getText().equals("")) {
 					
 					t11 = new Timer();
@@ -505,7 +465,7 @@ public class Kontroller {
 								r11.delay(200);
 								r11.keyRelease(KeyEvent.VK_F5);
 								
-							}else if(macro_11.getText().toUpperCase().equals("BOﬁLUK")){
+							}else if(macro_11.getText().toUpperCase().equals("BO√ûLUK")){
 								r11.keyPress(KeyEvent.VK_SPACE);
 								r11.delay(200);
 								r11.keyRelease(KeyEvent.VK_SPACE);
@@ -529,13 +489,13 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_11.setText("S¸re girilmedi.");
+						macro_11.setText("S√ºre girilmedi.");
 								
 					}
 				}
 					
 						
-				//TUﬁ 12 ›«›N G÷REVLER
+				//TU√û 12 √ù√á√ùN G√ñREVLER
 				if(!macro_12.getText().equals("") && !sure_12.getText().equals("")) {
 					
 					t12 = new Timer();
@@ -575,7 +535,7 @@ public class Kontroller {
 								r12.delay(200);
 								r12.keyRelease(KeyEvent.VK_F5);
 								
-							}else if(macro_12.getText().toUpperCase().equals("BOﬁLUK")){
+							}else if(macro_12.getText().toUpperCase().equals("BO√ûLUK")){
 								r12.keyPress(KeyEvent.VK_SPACE);
 								r12.delay(200);
 								r12.keyRelease(KeyEvent.VK_SPACE);
@@ -598,12 +558,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_12.setText("S¸re girilmedi.");
+						macro_12.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 13 ›«›N G÷REVLER
+				//TU√û 13 √ù√á√ùN G√ñREVLER
 				if(!macro_13.getText().equals("") && !sure_13.getText().equals("")) {
 					
 					t13 = new Timer();
@@ -643,7 +603,7 @@ public class Kontroller {
 								r13.delay(200);
 								r13.keyRelease(KeyEvent.VK_F5);
 								
-							}else if(macro_13.getText().toUpperCase().equals("BOﬁLUK")){
+							}else if(macro_13.getText().toUpperCase().equals("BO√ûLUK")){
 								r13.keyPress(KeyEvent.VK_SPACE);
 								r13.delay(200);
 								r13.keyRelease(KeyEvent.VK_SPACE);
@@ -669,12 +629,12 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_13.setText("S¸re girilmedi.");
+						macro_13.setText("S√ºre girilmedi.");
 								
 					}
 				}
 				
-				//TUﬁ 14 ›«›N G÷REVLER
+				//TU√û 14 √ù√á√ùN G√ñREVLER
 				if(!macro_14.getText().equals("") && !sure_14.getText().equals("")) {
 					
 					t14 = new Timer();
@@ -715,7 +675,7 @@ public class Kontroller {
 								r14.delay(200);
 								r14.keyRelease(KeyEvent.VK_F5);
 								
-							}else if(macro_14.getText().toUpperCase().equals("BOﬁLUK")){
+							}else if(macro_14.getText().toUpperCase().equals("BO√ûLUK")){
 								r14.keyPress(KeyEvent.VK_SPACE);
 								r14.delay(200);
 								r14.keyRelease(KeyEvent.VK_SPACE);
@@ -740,7 +700,7 @@ public class Kontroller {
 					
 					}catch(NumberFormatException e1) {
 						
-						macro_14.setText("S¸re girilmedi.");
+						macro_14.setText("S√ºre girilmedi.");
 								
 					}
 					
@@ -749,7 +709,7 @@ public class Kontroller {
 			e2.printStackTrace();
 	} //TRY CATCH BLOK SONU
 	
-}//BUTON ›ﬁLEVLER› SONU
+}//BUTON √ù√ûLEVLER√ù SONU
 	
 
 	@FXML
