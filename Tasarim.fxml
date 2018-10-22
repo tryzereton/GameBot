@@ -154,7 +154,7 @@
       <TextField fx:id="sure_14" layoutX="738.0" layoutY="386.0" prefWidth="50.0" />
       <Button fx:id="baslat" contentDisplay="CENTER" layoutX="235.0" layoutY="436.0" mnemonicParsing="false" onAction="#macroBaslat" prefHeight="25.0" prefWidth="107.0" text="Botu Başlat" />
       <Button fx:id="durdur" contentDisplay="CENTER" layoutX="375.0" layoutY="436.0" mnemonicParsing="false" onAction="#temizle" prefHeight="25.0" prefWidth="107.0" text="Botu Durdur" />
-      <Label layoutX="79.0" layoutY="10.0" text="Game Bot v1.1" textFill="#ffa411">
+      <Label layoutX="79.0" layoutY="10.0" text="Game Bot v1.2" textFill="#ffa411">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -167,7 +167,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Label>
-      <Label fx:id="yardim" layoutX="827.0" layoutY="1.0" onMouseClicked="#yardimAc" prefHeight="25.0" prefWidth="25.0" text=" ?" textAlignment="CENTER" textFill="#ffa411">
+      <Label fx:id="yardim" layoutX="826.0" layoutY="1.0" onMouseClicked="#yardimAc" prefHeight="25.0" prefWidth="25.0" text=" ?" textAlignment="CENTER" textFill="#ffa411">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
